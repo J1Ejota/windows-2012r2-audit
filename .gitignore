@@ -1,0 +1,45 @@
+# Logs y salidas
+*.log
+*.out
+*.bak
+*.tmp
+*.swp
+
+# Archivos de sistema de Windows
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# Archivos ocultos o personales (macOS, etc)
+*.DS_Store
+
+# Historiales de PowerShell y consola
+*.pshistory
+*.bash_history
+*.zsh_history
+
+# Archivos de entorno o configuración sensible
+.env
+*.config
+
+# Archivos generados por Visual Studio Code o editores
+.vscode/
+*.code-workspace
+.idea/
+
+# Scripts temporales o de prueba
+test.*
+*.test.*
+*_test.*
+
+# Salidas de ejecución
+output/
+results/
+dry_run_output.txt
+
+# Archivos de backup comunes
+*.old
+*.orig
+
+# Git internals
+.git/
